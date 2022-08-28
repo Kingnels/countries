@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+@mixin flex($direction, $justification, $alignment) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justification;
+    align-items: $alignment;
+}
